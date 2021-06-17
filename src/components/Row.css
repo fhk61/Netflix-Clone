@@ -1,0 +1,32 @@
+.rowPoster {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 15px;
+}
+
+.rowPoster::-webkit-scrollbar {
+  display: none;
+}
+
+.img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 260px;
+  margin-right: 10px;
+  transition: transform 500ms;
+  cursor: pointer;
+}
+
+.img:hover {
+  transform: scale(1.08);
+}
+
+.largeImg {
+  max-height: 220px;
+}
+
+.rowTitle {
+  margin-left: 20px;
+  color: aliceblue;
+}
